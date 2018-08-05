@@ -21,6 +21,11 @@ Place *selenium-server-standalone-\*.jar, chromedriver.exe, geckodriver.exe* in 
 java -jar selenium-server-standalone-3.13.0.jar -role hub
 java -jar selenium-server-standalone-3.13.0.jar -role node 
 ```
+or you can use on Windows script
+```
+cd path\to\selenium-server_folder\
+runGrid.bat
+```
 
 
 In your Java method specify
